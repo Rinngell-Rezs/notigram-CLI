@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 Notigram-CLI
-=======
-#Notigram-CLI
->>>>>>> 2429a63 (changes done)
 ===============
 
 Notigram is a small project, aimed exclusively as a productivity-aid tool.
