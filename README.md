@@ -1,5 +1,6 @@
 # Notigram-CLI
 ===============
+
 Notigram is a small project, aimed exclusively as a productivity-aid tool.
 
 The functionality provided is basically sending notifications from a script or command line, to a Telegram client, so you can be notified about any kind of event through it.
