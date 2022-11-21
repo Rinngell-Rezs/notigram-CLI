@@ -1,4 +1,4 @@
-# Notigram-CLI
+Notigram-CLI
 ===============
 
 Notigram is a small project, aimed exclusively as a productivity-aid tool.
@@ -7,7 +7,7 @@ The functionality provided is basically sending notifications from a script or c
 
 The tool is composed by 3 parts: A CLI interface, which can be used from command line, python module, or http request. A Telegram Bot, which will provide a personal token for the user and will deliver the notifications. And finally the API, which manages the message requests and the bot.
 
-The API code can be found `here on my other repo<https://github.com/Rinngell-Rezs/notigram-bot-API>`_, in case you want to check out how it works ^^.
+The API code can be found `here on my other repo <https://github.com/Rinngell-Rezs/notigram-bot-API>`_, in case you want to check out how it works ^^.
 
 Installing
 ============
