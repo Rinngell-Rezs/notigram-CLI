@@ -5,7 +5,8 @@ class InvalidTokenError(Exception):
 
 def ping(token:str,message:str):
     req = json.dumps({"token": token,"message": message}).encode('utf8')
-    res = requests.post('http://localhost:8000/sendMessage/',data=req)
+    res = requests.post('https://notigram.up.railway.app/sendMessage',data=req)
+    print(res.text)
     if('error' in res.text):
         raise InvalidTokenError("The token you provided doesn't exists or is not valid anymore.")
     return res.text
