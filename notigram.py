@@ -21,7 +21,7 @@ def ping(token:str,message:str):
     res = requests.post('https://notigram.up.railway.app/sendMessage',data=req)
     print(res.text)
     if('error' in res.text):
-        raise InvalidTokenError("The token you provided doesn't exists or is not valid anymore.")
+        raise InvalidTokenError("The token you provided doesn't exist or is not valid anymore.")
     return res.text
 
 if __name__ == "__main__":
