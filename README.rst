@@ -9,6 +9,8 @@ The tool is composed by 3 parts: A CLI interface, which can be used from command
 
 The API code can be found `here on my other repo <https://github.com/Rinngell-Rezs/notigram-bot-API>`_, in case you want to check out how it works ^^.
 
+The Telegram bot can be found as @notigram_apibot or at https://t.me/notigram_apibot.
+
 Installing
 ============
 
