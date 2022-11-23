@@ -1,4 +1,4 @@
-Notigram-CLI
+Notigram-CLI 🛎
 ===============
 
 Notigram is a small project, aimed exclusively as a productivity-aid tool.
@@ -11,14 +11,14 @@ The API code can be found `here on my other repo <https://github.com/Rinngell-Re
 
 The Telegram bot can be found as @notigram_apibot or at https://t.me/notigram_apibot.
 
-Installing
+Installing 👨‍💻
 ============
 
 .. code-block:: bash
 
     pip install notigram
 
-Usage
+Usage 👓
 =====
 
 .. code-block:: bash
@@ -27,7 +27,7 @@ Usage
     >>> ping('<TOKEN>',"You've got a message from python!")
     {'response':'result'}
 
-or
+or 🤷‍♂️
 
 .. code-block:: bash
 
