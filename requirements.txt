@@ -1,5 +1,10 @@
+beautifulsoup4==4.12.3
 certifi==2022.9.24
 charset-normalizer==2.1.1
+html-sanitizer==2.4.4
 idna==3.4
+lxml==5.2.2
+lxml_html_clean==0.1.1
 requests==2.28.1
+soupsieve==2.5
 urllib3==1.26.12
