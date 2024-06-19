@@ -1,5 +1,6 @@
 #Library import
-import json, requests, sys, os
+import json, requests, sys
+from html_sanitizer import Sanitizer
 
 class InvalidTokenError(Exception):
 # "This is a class that inherits from the Exception class, and it's called InvalidTokenError."
@@ -7,7 +8,8 @@ class InvalidTokenError(Exception):
 # Throws and exception when api can't resolve with the given token
     pass
 
-def ping(token:str,message:str):
+def ping(token:str, message:str):
+    sanitizer = Sanitizer()
     """
     It takes a token and a message and sends it to the server
     
@@ -17,8 +19,8 @@ def ping(token:str,message:str):
     :type message: str
     :return: A string containing the response from the server.
     """
-    req = json.dumps({"token": token,"message": message}).encode('utf8')
-    res = requests.post('https://notigram.up.railway.app/sendMessage',data=req)
+    req = json.dumps({"token": token,"message": sanitizer.sanitize(message)}).encode('utf8')
+    res = requests.post('https://notigram-api.fly.dev/sendMessage',data=req)
     print(res.text)
     if('error' in res.text):
         raise InvalidTokenError(f"The token {token} doesn't exist or is not valid anymore.")
