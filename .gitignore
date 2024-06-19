@@ -29,6 +29,9 @@ share/python-wheels/
 MANIFEST
 *.toml
 *.cfg
+*.lock
+setup.py
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
