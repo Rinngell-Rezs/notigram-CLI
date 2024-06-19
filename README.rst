@@ -15,14 +15,14 @@ The API code can be found `here on my other repo <https://github.com/Rinngell-Re
 The Telegram bot can be found as @notigram_apibot or at https://t.me/notigram_apibot.
 
 Installing 👨‍💻
-============
+================
 
 .. code-block:: bash
 
     pip install notigram
 
 Usage 👓
-=====
+=========
 
 .. code-block:: bash
 
