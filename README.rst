@@ -37,7 +37,7 @@ or 🤷‍♂️
     [user@linux ~]$ python -m notigram <TOKEN> Hello from command line! :D
     {'response':'result'}
 
-If you aren't using a python program or a command line, you can always send an http post request to the server (https://notigram-api.fly.dev/sendMessage) as well with the following format: 
+If you aren't using a python program or a command line, you can always send an http post request to the server (https://notigram.blahaj-bay.gay/sendMessage) as well with the following format: 
 
 .. code-block:: bash
 

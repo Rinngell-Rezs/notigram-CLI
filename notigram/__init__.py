@@ -21,7 +21,7 @@ def ping(token:str, message:str):
         "token": token,
         "message": html.escape(message)
     }).encode('utf8')
-    res = requests.post('https://notigram-api.fly.dev/sendMessage', data=req)
+    res = requests.post('https://notigram.blahaj-bay.gay/sendMessage', data=req)
 
     if('Invalid token' in res.text):
         raise InvalidTokenError(f"The token {token} doesn't exist or is not valid anymore.")
